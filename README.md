@@ -3,8 +3,9 @@ Code for the paper _Coronary Artery Centerline Extraction in Cardiac CT Angiogra
 
 This method extracts coronary artery centerlines in CCTA using a convolutional neural network (CNN). A 3D dilated CNN is trained to predict the most likely direction and radius of an artery at any given point in a CCTA image based on a local image patch. Starting from a single seed point placed manually or automatically anywhere in a coronary artery, a tracker follows the vessel centerline in two directions using the predictions of the CNN. Tracking is terminated when no direction can be identified with high certainty.
 
-
-![image](https://github.com/iolag/orientation-classifier/assets/63402398/edbc9d4d-f2f1-493d-bf79-900051a177a8)
+##
+![image](assets/repo-img.png)
+##
 
 # Usage
 For training, SITK readable images and centerline points in txt form are required.
