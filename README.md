@@ -11,7 +11,7 @@ This method extracts coronary artery centerlines in CCTA using a convolutional n
 
 
 # Usage
-For training, SITK readable images and centerline points in txt form are required.
+For training, SITK readable images and centerline points as .txt files are required.
 The centerline files should look like this:
 
 ```
