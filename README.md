@@ -43,7 +43,7 @@ To train the tracker, you can simply run:
 python train.py --datadir path/to/data/
 ```
 
-For tracking, the algorithm requires manual initialization. To do this, two text files are necessairy, one including the coordinates of the two ostia, and the other including one or more seed points. The structure is the same as the centerline files above. The paths to these files should be provided using the --ostia and --seeds flags respectively. 
+For tracking, the algorithm requires manual initialization. To do this, two text files are necessairy, one including the coordinates of the two ostia, and the other including one or more seed points. The files should look like the centerline files above. The paths to these files should be provided using the --ostia and --seeds flags respectively. 
 
 Example command:
 ```
