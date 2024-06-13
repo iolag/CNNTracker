@@ -1,3 +1,7 @@
+"""
+All functions in this code were written by Jelmer M. Wolterink.
+Slight adaptations were made to retrain on the ASOCA dataset.
+"""
 from __future__ import print_function
 from tqdm import tqdm
 import scipy.spatial as scsp
