@@ -1,5 +1,6 @@
 """
-All functions in this code were written by Jelmer M. Wolterink
+All functions in this code were written by Jelmer M. Wolterink.
+Slight adaptations were made to retrain on the ASOCA dataset.
 """
 
 import torch
